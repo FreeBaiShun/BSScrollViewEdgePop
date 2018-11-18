@@ -11,5 +11,5 @@ s.author             = { "FreeBaiShun" => "851083075@qq.com" }
 s.platform     = :ios, "8.0"
 s.requires_arc = true
 s.source       = { :git => "https://github.com/FreeBaiShun/BSScrollViewEdgePop.git", :tag => "#{s.version}" }
-s.source_files  = "BSScrollViewEdgePop/BSScrollViewEdgePop/*.{h,m}"
+s.source_files  = "ScrollTest/BSScrollViewEdgePop/*.{h,m}"
 end
