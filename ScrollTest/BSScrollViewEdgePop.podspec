@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "BSScrollViewEdgePop"
-s.version      = "0.0.1"
+s.version      = "0.0.2"
 s.summary      = "A short description of BSScrollViewEdgePop."
 s.description  = <<-DESC
                  解决UIScrollView滑动和系统侧滑返回冲突问题。
