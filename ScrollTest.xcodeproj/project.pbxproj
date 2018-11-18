@@ -15,6 +15,11 @@
 		338AF43121A144B60021BC7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 338AF43021A144B60021BC7F /* main.m */; };
 		338AF43B21A144B60021BC7F /* ScrollTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 338AF43A21A144B60021BC7F /* ScrollTestTests.m */; };
 		338AF44621A144B60021BC7F /* ScrollTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 338AF44521A144B60021BC7F /* ScrollTestUITests.m */; };
+		338AF45621A1451A0021BC7F /* UIScrollView+BSScrollViewEdgePop.m in Sources */ = {isa = PBXBuildFile; fileRef = 338AF45521A1451A0021BC7F /* UIScrollView+BSScrollViewEdgePop.m */; };
+		338AF45921A1469E0021BC7F /* ViewControllerSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 338AF45821A1469E0021BC7F /* ViewControllerSecond.m */; };
+		338AF45D21A1473A0021BC7F /* timg-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 338AF45A21A1473A0021BC7F /* timg-2.jpeg */; };
+		338AF45E21A1473A0021BC7F /* timg-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 338AF45B21A1473A0021BC7F /* timg-1.jpeg */; };
+		338AF45F21A1473A0021BC7F /* timg-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 338AF45C21A1473A0021BC7F /* timg-3.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,13 @@
 		338AF44121A144B60021BC7F /* ScrollTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		338AF44521A144B60021BC7F /* ScrollTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollTestUITests.m; sourceTree = "<group>"; };
 		338AF44721A144B60021BC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338AF45421A145150021BC7F /* UIScrollView+BSScrollViewEdgePop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+BSScrollViewEdgePop.h"; sourceTree = "<group>"; };
+		338AF45521A1451A0021BC7F /* UIScrollView+BSScrollViewEdgePop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+BSScrollViewEdgePop.m"; sourceTree = "<group>"; };
+		338AF45721A1469E0021BC7F /* ViewControllerSecond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerSecond.h; sourceTree = "<group>"; };
+		338AF45821A1469E0021BC7F /* ViewControllerSecond.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSecond.m; sourceTree = "<group>"; };
+		338AF45A21A1473A0021BC7F /* timg-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-2.jpeg"; sourceTree = "<group>"; };
+		338AF45B21A1473A0021BC7F /* timg-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-1.jpeg"; sourceTree = "<group>"; };
+		338AF45C21A1473A0021BC7F /* timg-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "timg-3.jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +113,16 @@
 		338AF42021A144B50021BC7F /* ScrollTest */ = {
 			isa = PBXGroup;
 			children = (
+				338AF45321A144E90021BC7F /* BSScrollViewEdgePop */,
+				338AF45A21A1473A0021BC7F /* timg-2.jpeg */,
+				338AF45C21A1473A0021BC7F /* timg-3.jpeg */,
+				338AF45B21A1473A0021BC7F /* timg-1.jpeg */,
 				338AF42121A144B50021BC7F /* AppDelegate.h */,
 				338AF42221A144B50021BC7F /* AppDelegate.m */,
 				338AF42421A144B50021BC7F /* ViewController.h */,
 				338AF42521A144B50021BC7F /* ViewController.m */,
+				338AF45721A1469E0021BC7F /* ViewControllerSecond.h */,
+				338AF45821A1469E0021BC7F /* ViewControllerSecond.m */,
 				338AF42721A144B50021BC7F /* Main.storyboard */,
 				338AF42A21A144B60021BC7F /* Assets.xcassets */,
 				338AF42C21A144B60021BC7F /* LaunchScreen.storyboard */,
@@ -130,6 +148,15 @@
 				338AF44721A144B60021BC7F /* Info.plist */,
 			);
 			path = ScrollTestUITests;
+			sourceTree = "<group>";
+		};
+		338AF45321A144E90021BC7F /* BSScrollViewEdgePop */ = {
+			isa = PBXGroup;
+			children = (
+				338AF45421A145150021BC7F /* UIScrollView+BSScrollViewEdgePop.h */,
+				338AF45521A1451A0021BC7F /* UIScrollView+BSScrollViewEdgePop.m */,
+			);
+			path = BSScrollViewEdgePop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +262,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338AF45E21A1473A0021BC7F /* timg-1.jpeg in Resources */,
 				338AF42E21A144B60021BC7F /* LaunchScreen.storyboard in Resources */,
+				338AF45F21A1473A0021BC7F /* timg-3.jpeg in Resources */,
 				338AF42B21A144B60021BC7F /* Assets.xcassets in Resources */,
 				338AF42921A144B50021BC7F /* Main.storyboard in Resources */,
+				338AF45D21A1473A0021BC7F /* timg-2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338AF45921A1469E0021BC7F /* ViewControllerSecond.m in Sources */,
 				338AF42621A144B50021BC7F /* ViewController.m in Sources */,
 				338AF43121A144B60021BC7F /* main.m in Sources */,
 				338AF42321A144B50021BC7F /* AppDelegate.m in Sources */,
+				338AF45621A1451A0021BC7F /* UIScrollView+BSScrollViewEdgePop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
